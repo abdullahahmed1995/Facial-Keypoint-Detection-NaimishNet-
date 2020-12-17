@@ -17,31 +17,31 @@ Neural Network - NaimishNet"
 ----------------------------------
 NAIMISHNET LAYER-WISE ARCHITECTURE
 ----------------------------------
-1 Input1
-2 Convolution2d1 
-3 Activation1 
-4 Maxpooling2d1 
-5 Dropout1 
-6 Convolution2d2 
-7 Activation2 
-8 Maxpooling2d2 
-9 Dropout2 
-10 Convolution2d3 
-11 Activation3 
-12 Maxpooling2d3 
-13 Dropout3 
-14 Convolution2d4 
-15 Activation4 
-16 Maxpooling2d4 
-17 Dropout4 
-18 Flatten1 
-19 Dense1 
-20 Activation5
-21 Dropout5
-22 Dense2 
-23 Activation6 
-24 Dropout6 
-25 Dense3 
+1- Input1
+2- Convolution2d1 
+3- Activation1 
+4- Maxpooling2d1 
+5- Dropout1 
+6- Convolution2d2 
+7- Activation2 
+8- Maxpooling2d2 
+9- Dropout2 
+10- Convolution2d3 
+11- Activation3 
+12- Maxpooling2d3 
+13- Dropout3 
+14- Convolution2d4 
+15- Activation4 
+16- Maxpooling2d4 
+17- Dropout4 
+18- Flatten1 
+19- Dense1 
+20- Activation5
+21- Dropout5
+22- Dense2 
+23- Activation6 
+24- Dropout6 
+25- Dense3 
 
 • Input1 is the input layer.
 • Activation1 to Activation5 use Exponential Linear Units (ELUs) as activation functions, whereas Activation6 uses Linear Activation Function.
